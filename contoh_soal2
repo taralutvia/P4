@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int bilangan;
+
+    //memberikan informasi agar user memasukkan sebuah biangan bulat
+    cout << "Masukkan bilangan bulat yang akan diperiksa :  ";
+    cin >> bilangan;
+
+    cout << endl << endl;
+
+    if (bilangan % 2 == 0)
+        {cout << bilangan << " " << "adalah bilangan genap" << endl;}
+    else
+        {cout << bilangan << " " << "adalah bilangan ganjil" << endl;}
+
+return 0;
+}
